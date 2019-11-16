@@ -5,8 +5,14 @@
     <title>Дипломный проект</title>
     <meta name="viewprot" content="width=device-wedth,initial-scale=1.0">
     <meta name="X-UA-Compatatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" crossorigin="anonymous">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/modernizr.js -->
+    <script src="scripts/modernizr.js"></script>
+    <!-- endbuild -->
   </head>
   <body>
     <header>
@@ -31,7 +37,11 @@
       </div>
 
     </section>
-
-    <script type="js/index.js"></script>
+    <!-- build:js scripts/vendor.js -->
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
   </body>
 </html>
